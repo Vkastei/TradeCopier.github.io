@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <py-env>
+        - mql5
+    </py-env>
+</head>
+
+<body>
+
+
+
+    <script src="script.js"></script>
+
+    <div style="width: 100px; margin-left: 40%;">
+
+
+        <input type="text" id="account" value="Accountnummer" style="margin-top: 50px;">
+        <input type="text" id="passwort" value="Passwort" style="margin-top: 50px;">
+        <input type="text" id="appIP" value="App IP" style="margin-top: 50px;">
+        <input type="text" id="appPort" value="App Port" style="margin-top: 50px;">
+
+        <button py-click="connect()" style="margin-top: 50px;" class="py-button">Verbinden</button>
+        <button py-click="getData()" style="margin-top: 50px;" class="py-button">Daten Empfangen</button>
+        <button py-click="closeConnection()" style="margin-top: 50px;">Verbindung Schliessen</button>
+    </div>
+
+    <py-script src="copier.py"></py-script>
+
+</body>
+
+</html>
