@@ -1,0 +1,79 @@
+* {
+    font-family: 'Oswald';
+}
+
+#section1 {
+    background-color: #E63946;
+}
+
+#section2 {
+    background-color: #F1FAEE;
+}
+
+#text {
+    margin-left: 30%;
+    display: inline-block;
+    height: 300px;
+}
+
+#title {
+    color: #a8dadc;
+    letter-spacing: 10px;
+    line-height: 30px;
+}
+
+#info {
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #f1faee;
+}
+
+#info2 {
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #a8dadc;
+}
+
+#info3 {
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #a8dadc;
+}
+
+#title2 {
+    color: #a8dadc;
+    letter-spacing: 10px;
+}
+
+.fade-in {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#img {
+    border-radius: 50px;
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+}
+
+#section3 {
+    background-color: #457b9d;
+}
+
+#section4 {
+    background-color: #1d3557;
+}
+
+#title3,
+#info4 {
+    color: #457b9d;
+}

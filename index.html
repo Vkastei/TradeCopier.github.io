@@ -1,39 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
-    <py-env>
-        - mql5
-    </py-env>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/vendors/easings.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+    <title>Document</title>
+
+
+
+
 </head>
 
 <body>
 
+    <div id="fullpage">
+        <div class="section" id="section1">
+
+            <div id="text" class="fade-in">
+                <h1 id="title">Vincent Kastein</h1>
+                <h1 id="title">Portfolio</h1>
+                <h3 id="info">asdfasdfsdafgabssdbdnacbxcvzb <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                </h3>
+            </div>
+            <img src="icon.png " alt="geht nmicht " id="img" class="fade-in">
+
+        </div>
+        <div class="section" id="section2">
+
+            <div id="text">
+                <h1 id="title">Project1</h1>
+                <h3 id="info2">asdfasdfsdafgabssdbdnacbxcvzb <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvz
+                </h3>
+
+            </div>
+
+        </div>
+        <div class="section" id="section3">
+
+            <div id="text">
+                <h1 id="title2">Project2</h1>
+                <h3 id="info3">asdfasdfsdafgabssdbdnacbxcvzb <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvz
+                </h3>
+
+            </div>
 
 
-    <script src="script.js"></script>
 
-    <div style="width: 100px; margin-left: 40%;">
+        </div>
+        <div class="section" id="section4">
 
 
-        <input type="text" id="account" value="Accountnummer" style="margin-top: 50px;">
-        <input type="text" id="passwort" value="Passwort" style="margin-top: 50px;">
-        <input type="text" id="appIP" value="App IP" style="margin-top: 50px;">
-        <input type="text" id="appPort" value="App Port" style="margin-top: 50px;">
+            <div id="text">
+                <h1 id="title3">Project2</h1>
+                <h3 id="info4">asdfasdfsdafgabssdbdnacbxcvzb <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvzb
+                    <br> asdfasdfsdafgabssdbdnacbxcvz
+                </h3>
 
-        <button py-click="connect()" style="margin-top: 50px;" class="py-button">Verbinden</button>
-        <button py-click="getData()" style="margin-top: 50px;" class="py-button">Daten Empfangen</button>
-        <button py-click="closeConnection()" style="margin-top: 50px;">Verbindung Schliessen</button>
+            </div>
+
+
+        </div>
     </div>
 
-    <py-script src="copier.py"></py-script>
-
 </body>
+
+<script>
+    new fullpage('#fullpage', {
+        autoScrolling: true,
+
+        scrollHorizontally: true,
+
+
+    });
+</script>
 
 </html>
