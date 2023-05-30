@@ -63,6 +63,10 @@
     }
 }
 
+a {
+    text-decoration: none;
+}
+
 .anim {
     animation: arrowAnim 1.5s;
     animation-iteration-count: infinite;
